@@ -8,7 +8,7 @@ button.addEventListener('click', function(){
 
     var apiKey = 'd44b8b87ab08971059c64e9dc941e512';
 
-    fetch('http://api.weatherstack.com/current?access_key=' + apiKey +
+    fetch('https://api.weatherstack.com/current?access_key=' + apiKey +
           '&query='+ inputValue.value)
       .then(response => response.json())
       .then(data => {
