@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="logo container">
+            <h1>Weather</h1>
+            <img src="https://img.icons8.com/cotton/64/000000/sunset--v5.png"/>           
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="enter container">
+            <div class="input">
+                <input type="text" class="inputValue" placeholder="Enter a city">
+                <input type="submit" value="Check" class="button">
+            </div>
+        </div>
+        <div class="display container">
+            <div class="display" id="display">
+                <h2 class="cityName"></h2>
+                <h1 class="temp"></h1>
+                <p class="desc"></p>
+                <div class="icon">
+                    <img id="icon" src="" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <Script src="./app.js"></Script>
+</body>
+</html>
